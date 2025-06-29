@@ -1,0 +1,55 @@
+uuid: ee85a0fa-a59e-48d7-b6ad-5af154900c5c
+langcode: en
+status: true
+dependencies:
+  module:
+    - content_moderation
+id: dataset_publishing
+label: 'Dataset Publishing'
+type: content_moderation
+type_settings:
+  states:
+    draft:
+      label: Draft
+      weight: 0
+      published: false
+      default_revision: false
+    in_review:
+      label: 'In review'
+      weight: 3
+      published: false
+      default_revision: false
+    need_review:
+      label: 'Need review'
+      weight: 2
+      published: false
+      default_revision: false
+    published:
+      label: Published
+      weight: 1
+      published: true
+      default_revision: true
+  transitions:
+    create_new_draft:
+      label: 'Create New Draft'
+      from:
+        - draft
+        - in_review
+      to: draft
+      weight: 0
+    need_changes:
+      label: 'Need Changes'
+      from:
+        - need_review
+        - published
+      to: need_review
+      weight: 2
+    publish:
+      label: Publish
+      from:
+        - in_review
+        - published
+      to: published
+      weight: 1
+  entity_types: {  }
+  default_moderation_state: draft

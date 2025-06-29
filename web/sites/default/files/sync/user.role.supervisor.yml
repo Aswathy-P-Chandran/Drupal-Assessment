@@ -1,0 +1,17 @@
+uuid: 689e7415-2808-4801-b0f7-f93768a5127a
+langcode: en
+status: true
+dependencies:
+  config:
+    - workflows.workflow.dataset_publishing
+    - workflows.workflow.editorial
+  module:
+    - content_moderation
+id: supervisor
+label: Supervisor
+weight: 4
+is_admin: false
+permissions:
+  - 'use dataset_publishing transition publish'
+  - 'use editorial transition archived_published'
+  - 'use editorial transition create_new_draft'
