@@ -1,0 +1,14 @@
+dropzone:
+  version: 5.9.3
+  js:
+    https://cdnjs.cloudflare.com/ajax/libs/dropzone/5.9.3/min/dropzone.min.js: { type: external, minified: true }
+    js/dropzone-widget.js: {}
+  css:
+    theme:
+      https://cdnjs.cloudflare.com/ajax/libs/dropzone/5.9.3/min/dropzone.min.css: { type: external, minified: true }
+      css/dropzone-widget.css: {}
+  dependencies:
+    - core/jquery
+    - core/drupal
+    - core/drupalSettings
+    - core/once

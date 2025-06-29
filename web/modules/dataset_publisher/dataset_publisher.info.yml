@@ -1,0 +1,8 @@
+name: 'Dataset Publisher'
+type: module
+description: 'Read data from CSV/XLSX, Metadata generate via AI and publish using workflow'
+package: Custom
+core_version_requirement: ^10 || ^11
+dependencies:
+  - drupal:file
+  - drupal:field

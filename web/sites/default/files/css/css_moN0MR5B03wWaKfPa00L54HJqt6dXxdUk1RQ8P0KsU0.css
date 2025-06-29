@@ -1,0 +1,2 @@
+/* @license GPL-2.0-or-later https://www.drupal.org/licensing/faq */
+.entity-browser-iframe-container iframe{display:block;position:relative;z-index:501;border:none;}.entity-browser-iframe-container .ajax-progress-fullscreen,.entity-browser-iframe-container .ajax-progress--fullscreen{position:absolute;z-index:500;}.entity-browser-iframe-container{position:relative;}

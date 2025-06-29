@@ -1,0 +1,10 @@
+entity.ai_dataset.edit_form:
+  route_name: entity.ai_dataset.edit_form
+  group: ai_dataset
+  title: 'Edit'
+
+entity.ai_dataset.delete_form:
+  route_name: entity.ai_dataset.delete_form
+  group: ai_dataset
+  title: 'Delete'
+  weight: 10

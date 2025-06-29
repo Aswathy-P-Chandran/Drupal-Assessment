@@ -1,0 +1,17 @@
+administer ai_dataset:
+  title: 'Administer ai datasets'
+  restrict access: true
+view ai_dataset:
+  title: 'View ai dataset'
+edit ai_dataset:
+  title: 'Edit ai dataset'
+delete ai_dataset:
+  title: 'Delete ai dataset'
+create ai_dataset:
+  title: 'Create ai dataset'
+view ai_dataset revision:
+  title: 'View ai dataset revision'
+revert ai_dataset revision:
+  title: 'Revert ai dataset revision'
+delete ai_dataset revision:
+  title: 'Delete ai dataset revision'

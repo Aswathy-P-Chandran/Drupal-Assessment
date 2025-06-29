@@ -1,0 +1,13 @@
+uuid: c999b3e6-eb85-46b3-b1be-209bb64923f6
+langcode: en
+status: true
+dependencies:
+  module:
+    - dataset_publisher
+_core:
+  default_config_hash: HOLwcm_8yFUYZomTEcoTIV667Ngs7eBZKLWUaPQc0cw
+id: ai_dataset_save_action
+label: 'Save ai datasets'
+type: ai_dataset
+plugin: 'entity:save_action:ai_dataset'
+configuration: {  }

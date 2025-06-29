@@ -1,0 +1,11 @@
+<!-- Twig template content -->
+<div class="dropzone-container">
+  <div id="dropzone-{{ element['#field_name'] }}" class="dropzone">
+    <div class="dz-message">
+      <div class="dz-icon">📁</div>
+      <h3>Drop files here or click to upload</h3>
+      <p>Only XLSX and CSV files are allowed</p>
+    </div>
+  </div>
+  {{ element|without('dropzone') }}
+</div>

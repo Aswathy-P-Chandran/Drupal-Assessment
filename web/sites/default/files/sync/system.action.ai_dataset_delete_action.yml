@@ -1,0 +1,13 @@
+uuid: d5806278-d712-44c1-88d1-f78fc24d5c4d
+langcode: en
+status: true
+dependencies:
+  module:
+    - dataset_publisher
+_core:
+  default_config_hash: Cjit35A1kU_m6RPW0llykBjvhJ7ZNQx_E3pMW3LJUKY
+id: ai_dataset_delete_action
+label: 'Delete ai datasets'
+type: ai_dataset
+plugin: 'entity:delete_action:ai_dataset'
+configuration: {  }

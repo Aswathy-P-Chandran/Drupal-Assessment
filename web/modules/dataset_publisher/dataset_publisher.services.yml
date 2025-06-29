@@ -1,0 +1,4 @@
+services:
+  dataset_publisher.openai_service:
+    class: Drupal\dataset_publisher\OpenAiService
+    arguments: ['@http_client']

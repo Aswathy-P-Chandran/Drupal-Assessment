@@ -1,0 +1,5 @@
+ai_dataset.add_form:
+  title: 'Add ai dataset'
+  route_name: entity.ai_dataset.add_form
+  appears_on:
+    - entity.ai_dataset.collection

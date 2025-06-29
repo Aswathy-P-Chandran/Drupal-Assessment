@@ -1,0 +1,22 @@
+entity.ai_dataset.settings:
+  title: 'Settings'
+  route_name: entity.ai_dataset.settings
+  base_route: entity.ai_dataset.settings
+entity.ai_dataset.view:
+  title: 'View'
+  route_name: entity.ai_dataset.canonical
+  base_route: entity.ai_dataset.canonical
+entity.ai_dataset.edit_form:
+  title: 'Edit'
+  route_name: entity.ai_dataset.edit_form
+  base_route: entity.ai_dataset.canonical
+entity.ai_dataset.delete_form:
+  title: 'Delete'
+  route_name: entity.ai_dataset.delete_form
+  base_route: entity.ai_dataset.canonical
+  weight: 10
+entity.ai_dataset.collection:
+  title: 'Ai datasets'
+  route_name: entity.ai_dataset.collection
+  base_route: system.admin_content
+  weight: 10

@@ -1,0 +1,10 @@
+langcode: en
+status: true
+dependencies:
+  module:
+    - dataset_publisher
+id: ai_dataset_save_action
+label: 'Save ai datasets'
+type: ai_dataset
+plugin: entity:save_action:ai_dataset
+configuration: {  }

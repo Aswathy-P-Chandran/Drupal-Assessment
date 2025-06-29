@@ -1,0 +1,11 @@
+entity.ai_dataset.settings:
+  title: 'Ai dataset'
+  description: 'Configure an Ai dataset entity type.'
+  route_name:  entity.ai_dataset.settings
+  parent: system.admin_structure
+
+entity.ai_dataset.collection:
+  title: 'Ai datasets'
+  description: 'List of ai datasets.'
+  route_name: entity.ai_dataset.collection
+  parent: system.admin_content

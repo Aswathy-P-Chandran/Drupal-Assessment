@@ -1,0 +1,24 @@
+entity.ai_dataset.settings:
+  path: 'admin/structure/ai-dataset'
+  defaults:
+    _form: '\Drupal\dataset_publisher\Form\AiDatasetSettingsForm'
+    _title: 'Ai dataset'
+  requirements:
+    _permission: 'administer ai_dataset'
+
+dataset_publisher.dropzone_upload:
+  path: '/file/upload/dropzone'
+  defaults:
+    _controller: '\Drupal\dataset_publisher\Controller\DropzoneUploadController::upload'
+  methods: [POST]
+  requirements:
+    _permission: 'access content'
+
+dataset_publisher.dropzone_delete:
+  path: '/file/delete/{fid}'
+  defaults:
+    _controller: '\Drupal\dataset_publisher\Controller\DropzoneUploadController::delete'
+  methods: [DELETE]
+  requirements:
+    _permission: 'access content'
+    fid: \d+
